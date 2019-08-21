@@ -182,7 +182,7 @@ img.img-responsive {
     width: 60px;
 }
 
-@keyframes boxSpin{
+/* @keyframes boxSpin{
   0%{
     transform: translate(-10px, 0px);
   }
@@ -203,23 +203,23 @@ img.img-responsive {
 
 @keyframes shadowSpin{
   0%{
-    box-shadow: 10px -10px #39CCCC, -10px 10px #FFDC00;
+    box-shadow: 10px -10px rgb(70, 70, 70), -10px 10px rgb(70, 70, 70);
   }
   25%{
-    box-shadow: 10px 10px #39CCCC, -10px -10px #FFDC00;
+    box-shadow: 10px 10px rgb(70, 70, 70), -10px -10px rgb(70, 70, 70);
   }
   50%{
-    box-shadow: -10px 10px #39CCCC, 10px -10px #FFDC00;
+    box-shadow: -10px 10px rgb(70, 70, 70), 10px -10px rgb(70, 70, 70);
   }
   75%{
-    box-shadow: -10px -10px #39CCCC, 10px 10px #FFDC00;
+    box-shadow: -10px -10px rgb(70, 70, 70), 10px 10px rgb(70, 70, 70);
   }
   100%{
-    box-shadow: 10px -10px #39CCCC, -10px 10px #FFDC00;
+    box-shadow: 10px -10px rgb(70, 70, 70), -10px 10px rgb(70, 70, 70);
   }
-}
+} */
 
-#load {
+/* #load {
 	z-index: 9999;
   background-color: #FF4136;
   opacity: 0.75;
@@ -234,7 +234,7 @@ img.img-responsive {
   border: 5px solid #FF4136;
   box-shadow: 10px 0px #39CCCC, 10px 0px #01FF70;
   animation: shadowSpin 1s ease-in-out infinite;
-}
+} */
 
 /* misc */
 hr {
@@ -551,6 +551,30 @@ Parallax
 }
 
 #separatorthree:after {	
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	opacity: 0.7;
+	z-index: -1;
+}
+
+#separatorfour {	
+	background-image: url(../img/pillowguitar.jpg);
+}
+
+#separatorfour .icon {
+	margin-bottom: 20px;
+}
+
+#separatorfour span {
+	color: #fff;
+}
+
+#separatorfour:after {	
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
 	content: "";
 	position: absolute;
