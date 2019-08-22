@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Giga&display=swap');
+
 /*--------------------------- Color variations ----------------------*/
 /* Medium Layout: 1280px */
 /* Tablet Layout: 768px */
@@ -8,12 +10,12 @@
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
-  background-color: #f5204b;
+  background-color:  #4700b3;
   color: #fff;
 }
 
 ::selection {
-  background-color: #f5204b;
+  background-color:  #4700b3;
   color: #fff;
 }
 
@@ -117,7 +119,26 @@ a, a:focus, a:hover {
   background: #f9f9ff;
 }
 
-h1, h2, h3,
+.original-text {
+  font-size: 14pt;
+  padding: 20px;
+  text-align: center;
+  background: rgba(153, 153, 153, .6);
+  color: white;
+  line-height: 30px;
+}
+
+h1 {
+  color: white;
+}
+h2 {
+  color:  #4700b3;
+  font-size: 30pt !important;
+}
+h3 {
+  color:  #4700b3 !important;
+  font-size: 14pt !important;
+}
 h4, h5, h6 {
   font-family: "Poppins", sans-serif;
   color: #222222;
@@ -751,7 +772,7 @@ td, th {
 }
 
 b, i, sup, sub, u, del {
-  color: #f5204b;
+  color:  #4700b3;
 }
 
 h1 {
@@ -886,25 +907,25 @@ h1, h2, h3, h4, h5, h6 {
 
 .genric-btn.primary {
   color: #fff;
-  background: #f5204b;
+  background:  #4700b3;
   border: 1px solid transparent;
 }
 
 .genric-btn.primary:hover {
-  color: #f5204b;
-  border: 1px solid #f5204b;
+  color:  #4700b3;
+  border: 1px solid  #4700b3;
   background: #fff;
 }
 
 .genric-btn.primary-border {
-  color: #f5204b;
-  border: 1px solid #f5204b;
+  color:  #4700b3;
+  border: 1px solid  #4700b3;
   background: #fff;
 }
 
 .genric-btn.primary-border:hover {
   color: #fff;
-  background: #f5204b;
+  background:  #4700b3;
   border: 1px solid transparent;
 }
 
@@ -1040,7 +1061,7 @@ h1, h2, h3, h4, h5, h6 {
 .generic-blockquote {
   padding: 30px 50px 30px 30px;
   background: #f9f9ff;
-  border-left: 2px solid #f5204b;
+  border-left: 2px solid  #4700b3;
 }
 
 .progress-table-wrap {
@@ -1164,7 +1185,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   width: 14px;
   height: 14px;
-  border: 3px solid #f5204b;
+  border: 3px solid  #4700b3;
   background: #fff;
   top: 4px;
   left: 0;
@@ -1177,7 +1198,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .ordered-list li {
   list-style-type: decimal-leading-zero;
-  color: #f5204b;
+  color:  #4700b3;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -1190,7 +1211,7 @@ h1, h2, h3, h4, h5, h6 {
 .ordered-list-alpha li {
   margin-left: 30px;
   list-style-type: lower-alpha;
-  color: #f5204b;
+  color:  #4700b3;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -1203,7 +1224,7 @@ h1, h2, h3, h4, h5, h6 {
 .ordered-list-roman li {
   margin-left: 30px;
   list-style-type: lower-roman;
-  color: #f5204b;
+  color:  #4700b3;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -1275,7 +1296,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .single-input-primary:focus {
   outline: none;
-  border: 1px solid #f5204b;
+  border: 1px solid  #4700b3;
 }
 
 .single-input-accent {
@@ -1336,7 +1357,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: #f5204b;
+  background:  #4700b3;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -1419,7 +1440,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .primary-switch input:checked + label:before {
-  background: #f5204b;
+  background:  #4700b3;
 }
 
 .confirm-switch {
@@ -1768,12 +1789,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .default-select .nice-select .list .option.selected {
-  color: #f5204b;
+  color:  #4700b3;
   background: transparent;
 }
 
 .default-select .nice-select .list .option:hover {
-  color: #f5204b;
+  color:  #4700b3;
   background: transparent;
 }
 
@@ -1823,12 +1844,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .form-select .nice-select .list .option.selected {
-  color: #f5204b;
+  color:  #4700b3;
   background: transparent;
 }
 
 .form-select .nice-select .list .option:hover {
-  color: #f5204b;
+  color:  #4700b3;
   background: transparent;
 }
 
@@ -1885,7 +1906,7 @@ nav {
     text-align: right;
     padding: 20px 0;
     z-index: 5;
-    background: #f5204b;
+    background:  #4700b3;
   }
 }
 
@@ -1935,13 +1956,44 @@ nav a:hover {
   }
 }
 
+.secondary-btn {
+  line-height: 40px;
+  padding: 0 30px;
+  border-radius: 20px;
+  background:  #4700b3;
+  border: 1px solid  #4700b3;
+  color: white;
+  display: inline-block;
+  font-weight: 500;
+  position: relative;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  text-transform: uppercase;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+.secondary-btn:focus {
+  outline: none;
+}
+
+.secondary-btn:hover {
+  background: white;
+  border: 1px solid white;
+  color: black;
+}
+
 .primary-btn {
   line-height: 40px;
   padding: 0 30px;
   border-radius: 20px;
   background: transparent;
   border: 1px solid #eee;
-  color: #f5204b;
+  color:  #4700b3;
   display: inline-block;
   font-weight: 500;
   position: relative;
@@ -1961,13 +2013,14 @@ nav a:hover {
 }
 
 .primary-btn:hover {
-  background: #f5204b;
-  border: 1px solid #f5204b;
+  background:  #4700b3;
+  border: 1px solid  #4700b3;
   color: #fff;
 }
 
 .banner-area {
   background: url(../img/Angel.jpg) no-repeat center center/cover;
+  height:100%;
 }
 
 .banner-area .overlay-bg {
@@ -1991,6 +2044,7 @@ nav a:hover {
   line-height: 1.2em;
   margin-bottom: 20px;
   color: white;
+  font-family: 'Lexend Giga', sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -2017,7 +2071,7 @@ nav a:hover {
 }
 
 .generic-banner {
-  background: #f5204b;
+  background:  #4700b3;
 }
 
 .generic-banner .height {
@@ -2052,11 +2106,8 @@ nav a:hover {
 }
 
 .exprience-thumb {
-  height: 100%;
-  min-height: 400px;
-  background-repeat: no-repeat !important;
-  background-position: center center !important;
-  background-size: cover !important;
+  background: url(../img/purple.jpg);
+  height: 250px;
 }
 
 @media (max-width: 767px) {
@@ -2086,7 +2137,7 @@ nav a:hover {
 }
 
 .carousel-area {
-  background: url(../img/c-bg.jpg) no-repeat center center/cover;
+  background: url(../img/background_5.png) no-repeat center center/cover;
 }
 
 .carousel-area .overlay-bg {
@@ -2099,7 +2150,8 @@ nav a:hover {
 
 .carousel-area .active-exprience-carousel .item {
   padding: 100px 60px;
-  background: #fff;
+  background:rgba(153, 153, 153, .60)
+  ;
 }
 
 @media (max-width: 767px) {
@@ -2112,7 +2164,7 @@ nav a:hover {
   font-size: 36px;
   line-height: 1.25em;
   margin-bottom: 20px;
-  color: #f5204b;
+  color:  #4700b3;
 }
 
 @media (max-width: 767px) {
@@ -2127,7 +2179,7 @@ nav a:hover {
 
 .carousel-area .carousel-trigger {
   position: absolute;
-  right: 100%;
+  left: 100%;
   top: 50%;
 }
 
@@ -2164,8 +2216,8 @@ nav a:hover {
 }
 
 .carousel-area .carousel-trigger .next-trigger:hover, .carousel-area .carousel-trigger .prev-trigger:hover {
-  background: #f5204b;
-  border: 1px solid #f5204b;
+  background:  #4700b3;
+  border: 1px solid  #4700b3;
 }
 
 .carousel-area .carousel-trigger .next-trigger:hover span, .carousel-area .carousel-trigger .prev-trigger:hover span {
@@ -2213,7 +2265,7 @@ nav a:hover {
 .single-service .icon span {
   margin: auto;
   font-size: 36px;
-  color: #f5204b;
+  color:  #4700b3;
   font-weight: 600;
 }
 
@@ -2251,7 +2303,7 @@ nav a:hover {
 .service-area-2 .single-service .icon span {
   margin: auto;
   font-size: 36px;
-  color: #f5204b;
+  color:  #4700b3;
   font-weight: 600;
 }
 
@@ -2367,7 +2419,7 @@ nav a:hover {
 }
 
 .single-address:hover .icon {
-  background: #f5204b;
+  background:  #4700b3;
 }
 
 .single-address:hover .icon span {
@@ -2488,7 +2540,7 @@ nav a:hover {
 }
 
 .subscription .info.error {
-  color: #f5204b;
+  color:  #4700b3;
 }
 
 footer {
@@ -2508,7 +2560,7 @@ footer .footer-nav li a {
 }
 
 footer .footer-nav li a:hover {
-  color: #f5204b;
+  color:  #4700b3;
 }
 
 .instafeed {
@@ -2541,15 +2593,15 @@ footer .footer-nav li a:hover {
 }
 
 .footer-bottom .footer-text i {
-  color: #f5204b;
+  color:  #4700b3;
 }
 
 .footer-bottom .footer-text a {
-  color: #f5204b;
+  color:  #4700b3;
 }
 
 .footer-bottom .footer-text a:hover {
-  color: #f5204b;
+  color:  #4700b3;
 }
 
 @media (max-width: 767px) {
@@ -2576,7 +2628,7 @@ footer .footer-nav li a:hover {
 }
 
 .footer-social a:hover {
-  background: #f5204b;
+  background:  #4700b3;
 }
 
 .about-generic-area {
