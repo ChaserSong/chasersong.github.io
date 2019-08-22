@@ -186,6 +186,11 @@ td, th {
   border-radius: 0px;
 }
 
+.thumbnail {
+  width: 75%;
+  padding: 0px;
+}
+
 /**
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
@@ -2322,11 +2327,11 @@ nav a:hover {
 }
 
 .video-area {
-  background: url(../img/c-bg.jpg) no-repeat center center/cover;
+  background: url(../img/umbrella-801918_1920.jpg) no-repeat center center/cover;
 }
 
 .video-area .overlay-bg {
-  background: rgba(245, 32, 75, 0.75);
+  background: rgba(0,0,0, 0.65);
 }
 
 .video-area .video-wrap {
@@ -2345,7 +2350,7 @@ nav a:hover {
 }
 
 .video-area .video-wrap .overlay-bg {
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(90, 90, 90, 0.5);
 }
 
 .video-area .video-wrap .play-btn {
@@ -2357,7 +2362,7 @@ nav a:hover {
 }
 
 .video-area .video-content {
-  padding: 60px 60px 60px 30px;
+  padding: 100px 100px 100px 30px;
 }
 
 @media (max-width: 991px) {
