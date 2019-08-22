@@ -1967,11 +1967,11 @@ nav a:hover {
 }
 
 .banner-area {
-  background: url(../img/banner-bg.jpg) no-repeat center center/cover;
+  background: url(../img/Angel.jpg) no-repeat center center/cover;
 }
 
 .banner-area .overlay-bg {
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.50);
 }
 
 @media (max-width: 767px) {
@@ -1980,12 +1980,17 @@ nav a:hover {
   }
 }
 
+.banner-content p {
+  text-align: right;
+}
+
 .banner-content h1 {
+  text-align: right;
   font-size: 60px;
   font-weight: 600;
   line-height: 1.2em;
   margin-bottom: 20px;
-  color: #f5204b;
+  color: white;
 }
 
 @media (max-width: 767px) {
@@ -2122,9 +2127,8 @@ nav a:hover {
 
 .carousel-area .carousel-trigger {
   position: absolute;
+  right: 100%;
   top: 50%;
-  transform: translateY(-50%);
-  right: -100px;
 }
 
 @media (max-width: 1199px) {
